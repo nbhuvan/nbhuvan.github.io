@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    
+}
+.intro{
+    color:rgb(47, 255, 61);
+    font-family:monospace;
+    font-size: 125%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.terminal{
+    color:rgb(47, 255, 61);
+    border: 2px solid rgb(47, 255, 61);
+    font-family:monospace;
+    font-size: 125%;
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    /* text-align: center; */
+}
