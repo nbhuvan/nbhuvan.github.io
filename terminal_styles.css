@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    
+}
+.intro{
+    color:rgb(47, 255, 61);
+    font-family:monospace;
+    font-size: 125%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.terminal{
+    color:rgb(47, 255, 61);
+    border: 2px solid rgb(47, 255, 61);
+    font-family:monospace;
+    font-size: 125%;
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    /* text-align: center; */
+}
+.cursor{
+    animation: blink 1s steps(1,end) infinite;
+    background-color: rgb(47, 255, 61); color: rgb(47, 255, 61);
+}
+
+input.command{
+    font-family: monospace;
+    font-size: 100%;
+    background: black;
+    border: 0;
+    color: white;
+    width:fit-content;
+}
+.command{
+    
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
