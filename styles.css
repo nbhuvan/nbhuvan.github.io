@@ -1,3 +1,15 @@
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+a:link{
+    color: blue;
+}
 .menu{
-    text-align: center;
+    text-align: left;
+
+}
+
+.menu_item{
+    font-size: medium;
 }
