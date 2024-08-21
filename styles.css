@@ -37,6 +37,12 @@ a{
     font-size: 1.25em;
 }
 
+.menu_item_selected{
+    text-decoration: underline;
+    padding-right: 50px;
+    font-size: 1.25em;
+}
+
 #menu{
     /* display: flex; */
     /* justify-content: center; */
