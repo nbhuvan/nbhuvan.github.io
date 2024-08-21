@@ -1,15 +1,51 @@
-a:visited{
-    text-decoration: none;
-    color: blue;
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-size: 16px;
+    line-height: 1.4;
+    color: black;
 }
-a:link{
-    color: blue;
-}
-.menu{
-    text-align: left;
 
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color:rgb(70, 61, 243);
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1000px;
+}
+
+
+#name{
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 2em;
+    margin-top: 20px;
+    /* font-weight: bold; */
 }
 
 .menu_item{
-    font-size: medium;
+    /* padding-left: 50px; */
+    padding-right: 50px;
+    font-size: 1.25em;
 }
+
+#menu{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 20px;
+    
+}
+
+#about{
+    margin-top: 20px;
+}
+
+
